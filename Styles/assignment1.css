@@ -132,3 +132,50 @@ main {
     font-size: 20px;
     margin: 0;
 }
+
+/* users say style */
+.users-say {
+    max-width: 1140px;
+    max-height: 342px;
+}
+
+.users-say-title {
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.users-items-container {
+    display: flex;
+    gap: 20px;
+}
+
+.fa-solid {
+    color: #FFB805;
+}
+
+.user-item {
+    width: 366px;
+    height: 243px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 50px 0px 24px 24px;
+}
+
+
+.reviewer-name-container {
+    display: flex;
+    align-items: center;
+    width: 318px;
+    height: 46px;
+    padding-top: 24px;
+}
+
+.reviewer-image {
+    height: 40px;
+    width: 40px;
+}
+
+.reviewer-name,
+.reviewer-date {
+    margin: 0px;
+}
