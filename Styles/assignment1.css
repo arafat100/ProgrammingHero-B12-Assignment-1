@@ -25,9 +25,17 @@
 
 }
 
-/* header style */
 .header {
-    background-image: url('../Assets/Hero-bg.png');
+    background-image: url(../Assets/Hero-bg.png);
+    margin-left: auto;
+    margin-right: auto;
+    /* max-width: 1140px; */
+    text-align: center;
+    display: flex;
+    justify-content: top;
+    height: 658px;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* nav styles */
@@ -100,7 +108,7 @@ main {
     max-height: 306px;
     text-align: center;
     background-color: rgba(78, 71, 255, 0.1);
-    padding: 50px 80px;
+    padding: 50px 20px;
     border-radius: 10px;
     margin: 116px 0;
 }
@@ -156,9 +164,8 @@ main {
 
 .user-item {
     width: 366px;
-    height: 243px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-    padding: 50px 0px 24px 24px;
+    padding: 24px;
 }
 
 
@@ -173,9 +180,36 @@ main {
 .reviewer-image {
     height: 40px;
     width: 40px;
+    padding-right: 6px;
 }
 
 .reviewer-name,
 .reviewer-date {
+    color: rgba(0, 0, 0, 0.5);
     margin: 0px;
+}
+
+/* focus style */
+.focus-container {
+    max-width: 1140px;
+    max-height: 696px;
+    text-align: center;
+    margin-top: 137px;
+}
+
+.focus-title {
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 71px;
+    padding-bottom: 20px;
+    margin: 0px;
+}
+
+.focus-description {
+    padding-bottom: 20px;
+}
+
+.focus-image {
+    border-radius: 48px;
+    padding-top: 71px;
 }
