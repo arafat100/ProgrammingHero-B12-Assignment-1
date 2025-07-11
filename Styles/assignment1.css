@@ -9,6 +9,10 @@
     background-color: #4E47FF;
 }
 
+.secondary-color {
+    color: rgba(0, 0, 0, 0.5);
+}
+
 .btn-primary {
     border-radius: 10px;
     border: none;
@@ -66,7 +70,8 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 116px;
+    margin: 116px 0;
+    max-width: 1140px;
     max-height: 698px;
 }
 
@@ -81,11 +86,49 @@ main {
 
 }
 
-.action-discription {
+.action-description {
     font-size: 24px;
     color: #252432;
 }
 
 .action-pic {
     border-radius: 10px;
+}
+
+.productive-users {
+    max-width: 1113px;
+    max-height: 306px;
+    text-align: center;
+    background-color: rgba(78, 71, 255, 0.1);
+    padding: 50px 80px;
+    border-radius: 10px;
+    margin: 116px 0;
+}
+
+.productive-users-title {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.productive-uses-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 158px;
+}
+
+/* .productive-user-item {
+    width: 180px;
+    height: 121px;
+} */
+
+.user {
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin: 0;
+}
+
+.user-description {
+    font-size: 20px;
+    margin: 0;
 }
